@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "426f487a328b2e97",
+    "type": "split",
+    "children": [
+      {
+        "id": "f41d096ddc8c59cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4ca055e53bb5e9d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "197b82b5dd300911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Execution Plan/Planner & Optimizer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Planner & Optimizer"
+            }
+          },
+          {
+            "id": "21a11007625f85d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Execution Plan/Estimated vs Actual/Actual Execution Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Actual Execution Plan"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc16e2b294c4fd47",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd8bdbc9d961318e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "beb1051025f0065f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aaf34bcc9239491b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8a778f41860132cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2858be5114feb119",
+    "type": "split",
+    "children": [
+      {
+        "id": "9984f55f5fc2c222",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1351b26d0698c276",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CDC/Extract-Transform-Load/ELT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "88298c962c9067a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CDC/Extract-Transform-Load/ELT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "caf910bb16adc6de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "41bfe94412d86f63",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d349653e73f7efe2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CDC/Extract-Transform-Load/ELT.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "beb1051025f0065f",
+  "lastOpenFiles": [
+    "SQL/Execution Plan/Operators/Join",
+    "SQL/Execution Plan/Execution Plan.md",
+    "SQL/Execution Plan/Estimated vs Actual",
+    "SQL/Execution Plan/Operators/Physical Operators.md",
+    "SQL/Execution Plan/Operators/Logical Operators.md",
+    "SQL/Execution Plan/Indexes - Access Path/Unique Indexes.md",
+    "SQL/Execution Plan/Indexes - Access Path/MultiColumn Indexes.md",
+    "SQL/Execution Plan/Indexes - Access Path/Index Types.md",
+    "SQL/Execution Plan/Indexes - Access Path",
+    "SQL/Execution Plan/Planner & Optimizer.md",
+    "Execution Plan.md",
+    "SQL/Execution Plan/Statistics.md",
+    "SQL/Execution Plan/Estimated vs Actual/Actual Execution Plan.md",
+    "SQL/Execution Plan/Estimated vs Actual/Estimated Execution Plan.md",
+    "pg_stats.md",
+    "SQL/Statistics",
+    "SQL/Execution Plan/Operators",
+    "_assets/debezium-kafka architecture.png",
+    "SQL/Execution Plan",
+    "SQL",
+    "CDC/Extract-Transform-Load/ELT.md",
+    "AGENTS.md"
+  ]
+}

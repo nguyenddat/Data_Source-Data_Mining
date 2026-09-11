@@ -6,7 +6,7 @@ Query-based CDC là cách: vẫn hỏi bằng SQL bình thường, nhưng hỏi 
 
 ## Ý tưởng của query-based CDC
 
-![Query-Based CDC](assets/query-based%20cdc.png)
+![Query-Based CDC](query-based%20cdc.png)
 
 Định kỳ chạy một câu SELECT vào bảng nguồn, lọc theo điều kiện "mới hơn lần trước", rồi đẩy kết quả sang bảng đích qua data pipeline.
 

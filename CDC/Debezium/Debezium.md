@@ -29,7 +29,7 @@ Khả năng và giới hạn không hoàn toàn giống nhau giữa các connect
 
 ## Học tiếp
 
-Xem [[Debezium Architecture|kiến trúc Debezium]] để hiểu các cách triển khai bằng Kafka Connect, Debezium Server hoặc Debezium Engine. Các chủ đề nên tách thành ghi chú riêng: connector cho từng database; cấu trúc change event; snapshot; và vận hành connector.
+Xem [[Apache Kafka]] để nắm event log, topic, partition, consumer group và retention; xem [[Debezium Architecture|kiến trúc Debezium]] để hiểu các cách triển khai bằng Kafka Connect, Debezium Server hoặc Debezium Engine; rồi xem [[Kafka Connect]] để hiểu runtime quản lý connector, task, offset và các internal topic. Các chủ đề nên tách thành ghi chú riêng: connector cho từng database; cấu trúc change event; snapshot; và vận hành connector.
 
 ## Nguồn tham khảo
 

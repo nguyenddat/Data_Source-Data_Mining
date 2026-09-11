@@ -7,7 +7,7 @@ Naive: Định kỳ vào hỏi lại bảng dữ liệu. Nhưng một dòng bị
 Cách thông minh hơn: Thay vì chạy vào "kho hàng" đếm lại từ đầu thì thực hiện đọc "sổ nhập kho" - nơi mọi thao tác CRUD đều được ghi lại đúng thứ tự.
 ## Ý tưởng của log-based CDC
 
-![WAL](assets/wal.jpg)
+![WAL](wal.jpg)
 
 "Sổ nhập kho" ghi chép mọi thay đổi về dữ liệu trong database gọi là:
 
@@ -28,7 +28,7 @@ Ba bước:
 2. Database stream log về liên tục
 3. Connector dịch log → message có nghĩa (dạng row-level), đẩy đi
 
-![log-based cdc example](assets/log-based%20cdc%20example.jpg)
+![log-based cdc example](log-based%20cdc%20example.jpg)
 
 Một message CDC có định dạng:
 

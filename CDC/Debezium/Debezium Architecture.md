@@ -14,7 +14,7 @@ Debezium có thể chạy qua Kafka Connect, dưới dạng Debezium Server ho�
 
 ## Debezium với Kafka Connect
 
-![[../assets/debezium-kafka architecture.png|Kiến trúc Debezium với Kafka Connect và Apache Kafka]]
+![[debezium-kafka architecture.png|Kiến trúc Debezium với Kafka Connect và Apache Kafka]]
 
 Trong cách triển khai thông dụng, Debezium chạy như **source connector** trong Kafka Connect — một dịch vụ độc lập với Kafka broker. Connector kết nối tới database nguồn, chuyển từng thay đổi thành change event và Kafka Connect ghi event vào Kafka. Sau đó, ứng dụng consumer, stream processor hoặc **sink connector** đọc các topic này để cập nhật Elasticsearch, cache, data warehouse hay hệ thống khác.
 
@@ -50,7 +50,7 @@ Trong chế độ distributed, nhiều worker phân phối connector và task đ
 
 ## Debezium Server
 
-![[../assets/debezium-server-architecture.jpeg|Kiến trúc Debezium Server phát CDC trực tiếp đến các hệ thống đích]]
+![[debezium-server-architecture.jpeg|Kiến trúc Debezium Server phát CDC trực tiếp đến các hệ thống đích]]
 
 Debezium Server là ứng dụng cấu hình sẵn, chứa các source connector của Debezium và phát change event trực tiếp đến một sink được hỗ trợ, như Redis, Amazon Kinesis, Apache Pulsar hoặc Google Pub/Sub. Kiến trúc này phù hợp khi tổ chức đã dùng sẵn một hạ tầng messaging đích, hoặc chỉ có một đường phân phối CDC rõ ràng.
 

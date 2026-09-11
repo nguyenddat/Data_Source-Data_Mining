@@ -6,7 +6,7 @@ Trigger-based CDC là cách: không quét lại bảng, cũng không cần đọ
 
 ## Ý tưởng của trigger-based CDC
 
-![Trigger-based CDC technique](assets/trigger-based%20cdc.png)
+![Trigger-based CDC technique](trigger-based%20cdc.png)
 
 Gắn trigger vào bảng nguồn cho cả ba thao tác INSERT/UPDATE/DELETE. Mỗi khi có transaction ghi vào bảng nguồn, trigger tự động chạy trong cùng transaction đó, ghi lại thay đổi vào một bảng phụ — gọi là shadow table (hay change log table). Tiến trình CDC đọc shadow table, đẩy sang bảng đích.
 
