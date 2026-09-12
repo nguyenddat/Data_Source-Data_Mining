@@ -9,8 +9,8 @@ Một truy vấn có thể có nhiều cách thực thi khác nhau—quét bản
 Estimated Execution Plan là kế hoạch do query optimizer tạo tại thời điểm biên dịch/lập kế hoạch. Nó mô tả:
 - các operator dự kiến
 - thứ tự xử lý
-- số hàng ước lượng (*estimated rows/cardinality*) 
-- chi phí tương đối (*cost*). 
+- số hàng ước lượng (*estimated rows/cardinality*)
+- chi phí tương đối (*cost*).
 
 SQL Server gọi đây là *compiled plan*; PostgreSQL tạo nó với `EXPLAIN` không kèm `ANALYZE`; Oracle tạo nó với `EXPLAIN PLAN`.
 
